@@ -22,7 +22,7 @@ Malaysian small businesses must follow e-Invoice rules that are spread across se
   Source / citation: B2Brouter, https://www.b2brouter.net/de/international/malaysia/ ; IRIS Business, https://www.irisbusiness.com/wp-content/uploads/2024/08/Intimation_GoLive_IRISMyeinvois_01Aug2024_Signed.pdf
   Key limitation: They create and submit e-Invoices; they do not answer which compliance rule applies to a given business.
 - Study / solution 3: General-purpose AI assistants and AI agent tools (e.g. an MCP connector for MyInvois)
-  Source / citation: [TO FILL: your own test of a general AI assistant, with date and tool name] ; MyInvois MCP connector, https://skillsplayground.com/connectors/app-wishpool-malaysia-invoice/
+  Source / citation: MyInvois MCP connector, https://skillsplayground.com/connectors/app-wishpool-malaysia-invoice/
   Key limitation: General assistants are not grounded in the current official guideline version, and the connector is built for submitting invoices, not explaining rules.
 
 ## Engineering Gap / Limitation
