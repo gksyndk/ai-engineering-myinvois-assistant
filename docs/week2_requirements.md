@@ -37,7 +37,6 @@ Version: 1.0
 |---|---|---|---|---|---|
 | **NFR1** | Performance | The system shall respond within an interactive latency target. | Measure end-to-end latency on a defined test workload of 30 queries. | p90 latency | < 5,000 ms |
 | **NFR2** | Correctness | Answers shall be consistent with the current official source documents. | Score a curated set of at least 30 supported questions (balanced across topics) with a defined rubric. | Correct response rate (%) | ≥ 80% |
-| **NFR3** | Cost | Inference cost shall stay within the project budget. | Record model/API usage over the evaluation workload. | Cost per 100 queries | < US$0.50 (illustrative) |
 | **NFR4** | Maintainability | A new guideline version shall be incorporated without rebuilding unrelated components. | Run a controlled document-update test with a changed guideline file. | Update time | < 30 min |
 | **NFR5** | Reliability | The system shall return a valid response to normal queries without errors. | Run the full test workload and count failed or empty responses. | Successful response rate (%) | ≥ 95% |
 
