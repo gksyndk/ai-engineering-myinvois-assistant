@@ -1,0 +1,46 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-07T14:49:15.402121+00:00",
+  "data_type": "documents_S02",
+  "configuration": {
+    "source_id": "S02",
+    "chunk_size": 500,
+    "method": "page-aware paragraph",
+    "document_version": "4.7",
+    "published": "20 April 2026"
+  },
+  "processing_method": "page-aware paragraph chunks of up to 500 characters; header and page-number line removed",
+  "sources": [
+    {
+      "path": "/content/week3_project/data/raw/irbm-e-invoice-specific-guideline.pdf",
+      "sha256": "98b21c6077c691c78da9e84dffa58c036b17fe4ff9411a1c441d14c90fd1278d"
+    }
+  ],
+  "outputs": [
+    "/content/week3_project/data/pipeline_v1/documents_S02/prepared_text.jsonl"
+  ],
+  "source_output_mapping": [
+    {
+      "source": "/content/week3_project/data/raw/irbm-e-invoice-specific-guideline.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents_S02/prepared_text.jsonl"
+    }
+  ],
+  "inspection": {
+    "source": "irbm-e-invoice-specific-guideline.pdf",
+    "source_id": "S02",
+    "document_version": "4.7",
+    "pages": 132,
+    "characters": 154193
+  },
+  "validation": {
+    "output_count": 1,
+    "output_sha256": [
+      "b3543656511bad76d831f8c984579bfe418c186a670c1ff4b1bde067f5610527"
+    ],
+    "output_bytes": [
+      243567
+    ]
+  },
+  "source_version": "Not verified",
+  "access_rights": "Not verified — check before sharing"
+}

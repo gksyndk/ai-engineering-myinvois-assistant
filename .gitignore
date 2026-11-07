@@ -1,0 +1,5 @@
+data/raw/
+*.zip
+*.pdf
+data/processed/*.jsonl
+data/pipeline_v1/*/prepared_text.jsonl

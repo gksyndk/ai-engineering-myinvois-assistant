@@ -1,0 +1,32 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-07T14:47:56.112592+00:00",
+  "records": [
+    {
+      "source_id": "S01",
+      "source_filename": "IRBM-e-Invoice-Guideline.pdf",
+      "source_sha256": "af55b6a71e0a81af3813e7495761b6dbd156feb636b451cb66288ad08f8153bc",
+      "prepared_output": "data/processed/prepared_text_S01.jsonl",
+      "prepared_sha256": "393d356c55148cf0192c1d6191bbd62f8f9bc4033e7fe6d3cb1a01be9ffa4291",
+      "processing_note": "page-aware paragraph chunks, 500 chars; repeated header and page-number line removed",
+      "document_version": "4.8",
+      "published": "30 August 2026",
+      "source_version": "4.8 (published 30 August 2026; read from PDF cover, not independently verified)",
+      "access_rights": "Public on hasil.gov.my; redistribution terms not verified",
+      "status": "Prepared; quality review pending"
+    },
+    {
+      "source_id": "S02",
+      "source_filename": "irbm-e-invoice-specific-guideline.pdf",
+      "source_sha256": "98b21c6077c691c78da9e84dffa58c036b17fe4ff9411a1c441d14c90fd1278d",
+      "prepared_output": "data/processed/prepared_text_S02.jsonl",
+      "prepared_sha256": "203082913554f7e0401bb9fc2ade982422f428929640b88c0c1f16935ebf7e7d",
+      "processing_note": "page-aware paragraph chunks, 500 chars; repeated header and page-number line removed",
+      "document_version": "4.7",
+      "published": "20 April 2026",
+      "source_version": "4.7 (published 20 April 2026; read from PDF cover, not independently verified)",
+      "access_rights": "Public on hasil.gov.my; redistribution terms not verified",
+      "status": "Prepared; quality review pending"
+    }
+  ]
+}
